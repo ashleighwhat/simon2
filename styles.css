@@ -1,8 +1,7 @@
+
+
 body {
-
   background-color: #197163;
-
-
   text-align: center;
 }
 
@@ -18,7 +17,7 @@ footer {
 }
 
 .container {
-  display: block;
+  display: inline-block;
   width: 50%;
   margin: auto;
 }
@@ -26,8 +25,8 @@ footer {
 .btn {
   display: inline-block;
   margin: 10px;
-  height: 135px;
-  width: 135px;
+  height: 120px;
+  width: 120px;
   border: 5px solid black;
   border-radius: 15px;
 }
@@ -77,3 +76,22 @@ footer {
 .nine {
   background-color: #6a8caf;
 }
+
+@media only screen and (max-width: 600px) {
+  #level-title {
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    margin:3%;
+    color: white;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .btn {
+    width: 80px;
+    height: 80px;
+  }
+
+  }
